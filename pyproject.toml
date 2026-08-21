@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lynx-numpy"
+version = "0.2.0"
+description = "Núcleo experimental esparso e evolutivo de NLU, sem Transformers ou backpropagation"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26"]
+
+[tool.setuptools.packages.find]
+include = ["lynx_numpy*"]
