@@ -1,0 +1,32 @@
+{
+  "examples": 5000,
+  "validation_examples": 200,
+  "vocabulary": 6000,
+  "token_updates": 641084,
+  "initial_fitness": -4.230590291139091,
+  "final_fitness": -2.740271107889918,
+  "active_units": 32,
+  "heldout_candidate_nll": 2.695696378129915,
+  "raw_samples": [
+    {
+      "prompt": "Explique de forma simples o que é energia solar.",
+      "response": "A aprendizagem de máquina é um."
+    },
+    {
+      "prompt": "Crie três ideias para estudar melhor.",
+      "response": "1. caça ao tesouro: crie uma lista de números, é necessário encontrar o menor número."
+    }
+  ],
+  "controlled_samples": [
+    {
+      "prompt": "Explique de forma simples o que é energia solar.",
+      "mode": "controlled_concept",
+      "text": "Em termos simples, o tema 'energia solar' aparece associado a renovável, limpa, solares e energia. Esta é uma síntese associativa do corpus; para uma explicação factual, valide com uma fonte ou ferramenta especializada."
+    },
+    {
+      "prompt": "Crie três ideias para estudar melhor.",
+      "mode": "controlled_plan",
+      "text": "1. Defina um objetivo claro para estudar melhor. 2. Divida estudar melhor em etapas pequenas e executáveis. 3. Teste os resultados, registre o que funcionou e faça ajustes."
+    }
+  ]
+}
