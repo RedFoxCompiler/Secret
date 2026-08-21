@@ -1,0 +1,32 @@
+{
+  "initial_fitness": 0.481212154006958,
+  "final_fitness": 0.7237065732240677,
+  "generations": 110,
+  "concept_nodes": 22,
+  "active_hidden": 24,
+  "train_accuracy": 1.0,
+  "heldout_accuracy": 0.6875,
+  "per_class_heldout_accuracy": {
+    "chat.greeting": 0.5,
+    "chat.help": 0.0,
+    "chat.thanks": 1.0,
+    "tool.calculator": 0.5,
+    "tool.clock": 1.0,
+    "tool.reminder": 0.5,
+    "tool.weather": 1.0,
+    "tool.web_search": 1.0
+  },
+  "train_examples": 64,
+  "heldout_examples": 16,
+  "labels": [
+    "chat.greeting",
+    "chat.help",
+    "chat.thanks",
+    "tool.calculator",
+    "tool.clock",
+    "tool.reminder",
+    "tool.weather",
+    "tool.web_search"
+  ],
+  "notes": "Few-shot seed benchmark; not a production quality claim."
+}
