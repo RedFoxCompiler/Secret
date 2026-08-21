@@ -1,0 +1,20 @@
+{
+  "router": {
+    "initial_fitness": 0.4230442997097762,
+    "final_fitness": 0.5181889374315292,
+    "generations": 5,
+    "concept_nodes": 21,
+    "active_hidden": 21
+  },
+  "facts": 1260,
+  "agentic_examples": 204,
+  "language_code_examples": 210,
+  "web_learning_enabled": true,
+  "manifest": {
+    "format": "lynx-brain-v1",
+    "size_bytes": 3355128,
+    "limit_mb": 500,
+    "no_backpropagation": true,
+    "no_transformers": true
+  }
+}
