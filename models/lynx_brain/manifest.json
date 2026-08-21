@@ -1,0 +1,7 @@
+{
+  "format": "lynx-brain-v1",
+  "size_bytes": 3373027,
+  "limit_mb": 500,
+  "no_backpropagation": true,
+  "no_transformers": true
+}
